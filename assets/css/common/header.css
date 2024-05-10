@@ -91,3 +91,47 @@ body:not(.dark) #sun {
 .logo-switches {
     flex-wrap: inherit;
 }
+
+.logo a:hover {
+    transition: 0.15s;
+    color: grey;
+}
+
+svg:hover {
+    transition: 0.15s;
+}
+
+.social-icons a:nth-child(1) svg:hover{
+    color: #C84370 !important;
+}
+
+.social-icons a:nth-child(2) svg:hover {
+    color: grey !important;
+}
+.social-icons a:nth-child(3) svg:hover {
+    color: rgb(41, 153, 245) !important;
+}
+.social-icons a:nth-child(4) svg:hover {
+    color: rgb(116, 23, 238) !important;
+}
+.social-icons a:nth-child(5) svg:hover {
+    color: rgb(31, 107, 221) !important;
+}
+.social-icons a:nth-child(6) svg:hover {
+    color: rgb(255, 234, 43) !important;
+}
+
+#moon:hover {
+    transition: 0.15s;
+    color: deepskyblue;
+}
+
+#sun:hover {
+    transition: 0.15s;
+    color: gold;
+}
+
+#menu a:hover {
+    transition: 0.15s;
+    color: grey;
+}
